@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+a{
+    color: #0645AD;
+}
+
+a:not(:hover){
+    text-decoration: none;
+}
+
+ol{
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.cabecalho{
+    padding: 12px 24px;
+    background-color: rgb(219, 219, 219);    
+}
+
+.cabecalho-conteudo{
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+.logo-figura{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+}
+
+.logo-nome{
+    margin: 0 12px;
+    font-size: 35px;
+}
+
+.rodape{
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    padding: 12px;
+}
